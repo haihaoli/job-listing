@@ -1,6 +1,7 @@
 <h1> <%= @job.title %> </h1>
 
-<p>
-  <%= simple_format(@job.description) %>
 
-</p>
+  <tr><%= @job.description %></tr>
+  <tr><%= @job.wage_upper_bound %></tr>
+  <tr><%= @job.wage_lower_bound %></tr>
+  <tr><%= @job.contact_email %></tr>
