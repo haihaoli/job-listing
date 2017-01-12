@@ -1,9 +1,11 @@
 <h1> <%= @job.title %> </h1>
-
-<p>
-  <%= simple_format(@job.description) %>
-  <%= simple_format(@job.wage_upper_bound) %>
-  <%= simple_format(@job.wage_lower_bound) %>
-  <%= simple_format(@job.contact_email) %>
-
-</p>
+  <tbody>
+    description
+    <br><%= @job.description %><br>
+    <br>薪酬上限
+    <br><%= @job.wage_upper_bound %><br>
+    <br>薪酬下限
+    <br><%= @job.wage_lower_bound %><br>
+    <br>联系方式
+    <br><%= @job.contact_email %><br>
+  </tbody>
