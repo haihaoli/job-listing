@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20170114075447) do
   create_table "resumes", force: :cascade do |t|
     t.text     "content"
     t.integer  "job_id"
-    t.integer  "user_is"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
