@@ -1,0 +1,13 @@
+
+<body>
+<table>
+  <%= simple_form_for @job do |job| %>
+    <tr>
+      <td><%= link_to(job.title, job_path） %></td>
+      <td><%= link_to("Edit", job_path) %> |
+          <%= link_to("destory", job_path, confirm => "Are you sure?" ) %></td>
+      <td><%= job.create_at %></td>
+    </tr>
+  <% end %>
+</table>
+</body>
