@@ -55,6 +55,20 @@
   padding-top: 50%;
 }
 
+.trap {
+  background-image: url('https://pbs.twimg.com/profile_images/378800000419662321/0731239798957f139625d094bf59b8ef.jpeg');
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background-position:50% 33%;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
 .title{
   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
   text-align: center;
@@ -63,17 +77,12 @@
 }
 
 .slogan {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
   margin-top: 10px;
   margin-bottom: 50px;
   text-align: center;
   color: white;
   top: 12px;
-}
-
-.lead {
-  margin-bottom: 60px;
-  text-align: center;
-  color: white;
 }
 
 .caption {
@@ -167,6 +176,7 @@
     color: #222;//字体颜色
     border-bottom-right-radius: 3px;//右下角圆边
     border-bottom-left-radius: 3px;//左下角圆边
+    font-weight: 300
 }
 
 .btn-danger {
